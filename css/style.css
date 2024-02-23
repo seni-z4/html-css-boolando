@@ -3,3 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.page-header {
+  background-color: #f26903;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-menu {
+  display: flex;
+}
+.icon-items {
+  color: black;
+}
