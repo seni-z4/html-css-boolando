@@ -24,11 +24,99 @@ img {
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .main-menu {
   display: flex;
+  gap: 10px;
+  align-items: center;
 }
 .icon-items {
   color: black;
+}
+
+.logo {
+  width: 200px;
+  padding-top: 10px;
+}
+.icon-menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.hero {
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.middile {
+  display: flex;
+  background-color: black;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.heading {
+  text-align: center;
+}
+
+.del-color {
+  color: red;
+}
+
+.class-item {
+  font-size: 10px;
+}
+
+.card-text {
+}
+
+.card {
+  border: 1px solid grey;
+}
+
+.row > cards {
+  justify-content: space-around;
+}
+
+.sep {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-secion {
+  margin-top: 25px;
+  background-color: black;
+  color: #fff;
+  padding: 25px;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.test {
+  display: flex;
+}
+.pps {
+  display: flex;
+  gap: 5px;
+}
+.kk {
+  display: inline-block;
 }
